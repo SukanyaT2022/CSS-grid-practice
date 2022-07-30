@@ -1,0 +1,29 @@
+.mainBox{
+    border: 2px solid pink;
+    width: 80%;
+    margin: auto;
+    height: 400px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr ;
+    /*fr mean column*/
+    grid-gap: 10px;
+}
+.box1{
+    background-color: green;
+    
+}
+.box1 p{
+    margin: 0px 10px;
+    text-align: justify;
+}
+.box1 img{
+    border-bottom:5px solid pink ;
+}
+
+.box2{
+    background-color: yellow;
+}
+
+.box3{
+    background-color: coral;
+}
